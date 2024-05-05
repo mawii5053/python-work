@@ -23,3 +23,6 @@ print(e,f,g)
 
 # say hello to everyone
 print("hello python people")
+
+message = "do me i do you"
+print(message)
