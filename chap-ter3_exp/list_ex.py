@@ -18,3 +18,26 @@ print(message)
 cars = ['bugatti', 'ferrari','royce','rover']
 message = f"i will buy a {cars[0].title()} on my 50 birthday"
 print(message)
+
+birthday_list = ['azaya','fizzy','angela']
+print(birthday_list)
+print(f"i am inviting {birthday_list[0]} to my birthday party")
+print(f"i am inviting {birthday_list[1]} to my birthday party")
+
+birthday_lists = ['azaya','fizzy','angela']
+print(birthday_lists)
+birthday_lists[0] = 'mela'
+print(birthday_lists)
+print(f"i am inviting {birthday_lists[0]} to my birthday party")
+print(f"i am inviting {birthday_lists[1]} to my birthday party")
+print(f"i am inviting {birthday_lists[2]} to my birthday party")
+
+streets = ['sadiku','bosun','chinda','worlu','iyasera']
+print(streets)
+streets.insert(0, 'ozuoba')
+print(streets)
+streets.insert(2, 'nkiri')
+print(streets)
+streets.append('oshodi')
+print(streets)
+
