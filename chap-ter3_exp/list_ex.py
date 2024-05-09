@@ -41,3 +41,33 @@ print(streets)
 streets.append('oshodi')
 print(streets)
 
+var = 5
+print(var)
+
+coddy = "i am learning to code with coddy."
+print(coddy)
+
+boolean = True
+print(boolean)
+k = 88
+PI = 3.14
+name = "bob"
+
+a = 5.2
+b = 2.6
+c = a / b
+print(c)
+
+count = 0
+count += 4
+count *= 2
+count -= 1
+
+n1 = 8
+n2 = 9
+n3 = n1 > n2
+print(n3)
+b1 = True
+b2 = False
+b3 = b1 or b2
+print(b3)
