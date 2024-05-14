@@ -71,3 +71,14 @@ b1 = True
 b2 = False
 b3 = b1 or b2
 print(b3)
+ 
+locations = ['paris','lagos','togo','chicago']
+locations.sort()
+print(locations)
+
+print(sorted(locations))
+
+locations = ['paris','lagos','togo','chicago']
+print(locations)
+locations.sort(reverse=True)
+print(locations)
