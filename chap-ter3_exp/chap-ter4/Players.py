@@ -21,3 +21,50 @@ print("my favorite foods are:")
 print(my_foods)
 print("\nMy friend's favorite foods are:")
 print(friend_foods)
+
+my_foods = ['pizza','falafel','carrot cake']
+friend_foods = my_foods[:]
+my_foods.append('cannoli')
+friend_foods.append('ice cream')
+print("my favorite foods are :")
+print(my_foods)
+print("\nmy friend's favorite food are:")
+print(friend_foods)
+
+print('\nwhen aslice is not added when copying a list')
+
+my_foods = ['pizza','falafel','carrot cake']
+
+# this doesn't work:
+friend_foods = my_foods
+my_foods.append('cannoli')
+friend_foods.append('ice cream')
+print("my favorite foods are :")
+print(my_foods)
+print("\nmy friend's favorite food are:")
+print(friend_foods)
+
+print('\ntry it yourself on slice')
+
+anticeptics = ['dettol','savlon','izal','purit','huggies','kiss','anorol']
+print("the first three items in the list are:")
+print(anticeptics[0:3])
+print("\nthree items from the middle of the list are:")
+print(anticeptics[2:5])
+print("\nThe last three items in the list are:")
+print(anticeptics[4:])
+
+print('\nfuther more')
+my_menu = ['fufu','garri','yam','rice',]
+azaya_menu = my_menu[:]
+my_menu.append('egg')
+azaya_menu.append('pupu')
+print(my_menu)
+print(azaya_menu)
+print("\nmy favorite menu is")
+for menu in my_menu[:5]:
+    print(menu.title())
+for menu in azaya_menu[:5]:
+    print(menu.title())
+
+
