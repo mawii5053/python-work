@@ -67,4 +67,37 @@ for menu in my_menu[:5]:
 for menu in azaya_menu[:5]:
     print(menu.title())
 
+print('\nTUPLES')
+print('for example')
+
+dimension = (200, 50)
+print(dimension[0])
+print(dimension[1])
+print('\nlooping through all values in a tuple')
+print('for example')
+dimensions = (200, 50)
+for dimension in dimensions:
+    print(dimension)
+
+print('\nwriting over a tuple')
+print('for example')
+dimensions = (200, 50)
+print("original dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400, 100)
+print("\nmodified dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+print("\ntry it yourself")
+buffets = ('rice', 'bread', 'egg', 'fruit', 'cheese')
+for buffet in buffets:
+    print(buffet)
+
+buffets = ('rice', 'bread', 'cakes', 'salads', 'pies')
+print("\nmodified buffets:")
+for buffet in buffets:
+    print(buffet)
 
