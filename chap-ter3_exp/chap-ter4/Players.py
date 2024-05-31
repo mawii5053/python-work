@@ -100,4 +100,5 @@ buffets = ('rice', 'bread', 'cakes', 'salads', 'pies')
 print("\nmodified buffets:")
 for buffet in buffets:
     print(buffet)
+    
 
