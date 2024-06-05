@@ -82,3 +82,4 @@ locations = ['paris','lagos','togo','chicago']
 print(locations)
 locations.sort(reverse=True)
 print(locations)
+print(locations)
