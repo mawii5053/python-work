@@ -56,3 +56,67 @@ elif age < 18:
 else:
     price = 40
 print(f"your admission cost is ${price}. ")
+
+print("\nusing multiple elif blocks.")
+age = 12
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 25
+elif age < 65:
+    price = 40
+else:
+    price = 20   
+print(f"your admission cost is ${price}. ")    
+
+print("\nomitting the else block.")
+age = 12
+if age < 4:
+    price = 0
+elif age < 18:
+    price = 25
+elif age < 60:
+    price = 40
+elif age >= 65:
+    price = 20
+print(f"your admission cost is ${price}. ")    
+
+print("\nTesting multiple condition.")
+requested_toppings = ["mushrooms", "extra cheese"]
+if 'mushrooms' in requested_toppings:
+    print("adding mushrooms.")
+if "pepperoni" in requested_toppings:
+    print("adding pepperoni.")
+if 'extra cheese' in requested_toppings:
+    print("adding extra cheese.")
+print("\nfinished making your pizza!")
+
+alien_colour = ['green', 'yellow', 'red']
+if 'green' in alien_colour:
+    print("player should earn 5 points.")
+if 'pink' in alien_colour:
+    print("the player should pay $10.")    
+
+
+alien_colour = ['green', 'yellow', 'red', 'gold', 'purple']
+if "green" in alien_colour:
+    print("player just earned 5 points for shooting an alien.")    
+if "black" in alien_colour:  
+    print("player just earned 10 points")  
+
+alien_colour = ['green', 'yellow', 'red', 'gold', 'purple']
+if "yellow" in alien_colour:
+    print("you are good to go")
+else:
+    print("stay back and wait for the next batch")  
+
+alien_colour = ['green', 'yellow', 'red', 'gold', 'purple']  
+if "green" in alien_colour:
+    points = 5
+elif "yellow" in alien_colour:
+    points = 10
+elif "red" in alien_colour:
+    points = 15
+else:
+    points = 20
+print(f"these are the various {points}")                    
