@@ -99,7 +99,8 @@ if 'pink' in alien_colour:
 
 
 alien_colour = ['green', 'yellow', 'red', 'gold', 'purple']
-if "green" in alien_colour:
+alien_colour = 'green'
+if "green" == alien_colour:
     print("player just earned 5 points for shooting an alien.")    
 if "black" in alien_colour:  
     print("player just earned 10 points")  
@@ -119,4 +120,51 @@ elif "red" in alien_colour:
     points = 15
 else:
     points = 20
-print(f"these are the various {points}")                    
+print(f"these are the various {points}")
+
+age = 2
+if age < 2:
+    print("you are a baby.")
+
+print(f"\nUsing if statement for list and checking for special item")
+
+pharmaceutical_products = ['cosmetics', 'medicine', 'anticeptics']
+for pharmaceutical_product in pharmaceutical_products:
+    print(f"adding {pharmaceutical_product}. ")
+print("\nfinished building your factory")  
+
+pharmaceutical_products = ['cosmetics', 'medicine', 'anticeptics']
+for pharmaceutical_product in pharmaceutical_products:
+    if pharmaceutical_product == 'medicine':
+        print("sorry, we are out of medicine it right now.")
+else:
+    print(f"adding {pharmaceutical_product}.")
+print("\nfinished building your factory")  
+
+print("\nCHECKING THAT A LIST IS NOT EMPTY.")
+pharmaceutical_products = []
+if pharmaceutical_products:
+    for pharmaceutical_product in pharmaceutical_products:
+        print(f"adding {pharmaceutical_product}.")
+    print("\nfinished making your pizza!")
+else:
+    print("are you sure you want drugs")      
+
+print("\nUsing multiple list")
+
+available_toppings = ["mushrooms","olives","green peppers","pepperoni","pineapple","extra cheese"]
+requested_toppings = ["mushrooms","french fries","extra cheese"]
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print(f"adding {requested_topping}.")
+else:
+    print(f"sorry, we don't have {requested_topping}")
+print("\nfinished making your pizza!")             
+
+
+      
+
+
+
+    
+
