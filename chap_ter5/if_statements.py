@@ -159,7 +159,42 @@ for requested_topping in requested_toppings:
         print(f"adding {requested_topping}.")
 else:
     print(f"sorry, we don't have {requested_topping}")
-print("\nfinished making your pizza!")             
+print("\nfinished making your pizza!")    
+
+print("\ntry it yourself")
+usernames = ['kafayat','victoria','martha','rosemary','admin']
+for username in usernames:
+    print(f"you are welcome {username}")
+if username == 'admin':
+    print(f"hello admin, would you like to see a status report ?")
+else:
+    print(f"hello {username} , thank you for logging in again")    
+
+ 
+usernames = []
+if not usernames:
+    print(f"we need to find some users")
+
+current_users = ['biodun','ayo','bidemi','sikirat','dapo']
+new_users = ['chidi','nkem','ayo','bidemi','dozie'] 
+for new in new_users:
+    if new in current_users:
+        print(f"please enter a new name ")  
+    if new not in current_users:
+        print(f"user name available") 
+numbers = [1,2,3,4,5,6,7,8,9]
+for number in numbers:
+    if number == 1:
+        print(f"{number}st")
+    elif number == 2:
+        print(f"{number}nd")
+    elif number == 3:
+        print(f"{number}rd")
+    else:
+        print(f"{number}th")                   
+
+
+
 
 
       
