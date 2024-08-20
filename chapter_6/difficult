@@ -1,0 +1,83 @@
+staffs_tribes = {
+'martha':'ogun', 
+'victoria':'kalabari',
+'silver':'igbo',
+'razaki':'yoruba'
+}
+for name in staffs_tribes.keys():
+    print(name.title())  
+staffs_tribes = {
+'martha':'ogun', 
+'victoria':'kalabari',
+'silver':'igbo',
+'razaki':'yoruba'
+}
+pals = ['razaki', 'silver']
+for name in staffs_tribes.keys():
+    print(name.title())
+    if name in pals:
+        tribe = staffs_tribes[name].title()
+        print(f"\t{name.title()}, i see you love {tribe}")
+
+staffs_tribes = {
+'martha':'ogun', 
+'victoria':'kalabari',
+'silver':'igbo',
+'razaki':'yoruba'
+}
+if 'rose' not in staffs_tribes.keys():
+    print("rose please take your poll!")
+
+
+print(f"\n looping through a dictionary's key in a particular order")
+favorite_drugs = {
+    'martha' : 'paracetamol',
+    'silver' : 'postinor',
+    'ifeanyi' : 'ginko',
+    'rosemary' : 'niacin',
+    'victoria' : 'antellarge',
+}
+for name in sorted(favorite_drugs.keys()):
+    print(f"{name.title()}, thank you for visiting the pharmacy.")
+
+print(f"\n looping through all values in a dictionary")
+favoritr_meal = {
+    'john' : 'nsala',
+    'isaiah' : 'fish',
+    'mawii' : 'egusi',
+    'paschal' : 'fufu',
+}
+print("the following meal have been mentioned")
+for meal in favoritr_meal.values():
+    print(meal.title())
+
+print(f"\nusing a set")
+favorite_meal = {
+    'john' : 'fufu',
+    'isaiah' : 'fish',
+    'mawii' : 'egusi',
+    'paschal' : 'fufu',
+}
+print("the following meal have been mentioned")
+for meal in set(favorite_meal.values()):
+    print(meal.title())
+
+country_rivers = {
+    'bomu' : 'congo',
+    'lukuga' : 'congo',
+    'nyong' : 'cameroon',
+    'benue' : 'cameroon',
+    'nile' : 'eygpt',
+    'ouham': 'chad',
+    'djoua' : 'gabon',
+    'sokoto' : 'nigeria',
+    'faro' : 'nigeria',
+}
+for name, rivers in country_rivers.items():
+    print(f"the {name.title()} runs through {rivers.title()}.")
+for name in country_rivers.keys():
+    print(name.title())
+for name in country_rivers.values():
+    print(name.title())
+
+

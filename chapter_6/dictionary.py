@@ -58,3 +58,67 @@ print("\n using get() to acess values")
 alien_0 = {'color': 'green', 'speed': 'slow'}
 point_value = alien_0.get('points','no point value assigned.')
 print(point_value)
+print('\n')
+girl = {'first_name':'victoria', 'last_name': 'ekine', 'age': '17', 'city': 'port harcourt'}
+print(girl['first_name'])
+print(girl['last_name'])
+print(girl['age'])
+print(girl['city'])
+
+print('\n')
+roziel_pharmacy = {
+    'martha': 79, 
+    'silver': 63, 
+    'victoria': 17, 
+    'mawii': 50, 
+    'rose': 29
+    }
+for key, value in roziel_pharmacy.items():
+    print(f"{key} favorite number is {value}")
+roziel_pharmacy = {'username': 'nnadozie',
+'first' : 'ifeanyi',
+'last' : 'agwulonu',
+}
+for key, value in roziel_pharmacy.items():
+    print(f"\nkey:{key}")
+    print(f"value:{value}")
+
+print(f"\nexample 2")
+favorite_languages ={
+    'jen': 'python',
+    'sarah': 'C', 
+    'edward': 'ruby', 
+    'phil' : 'python',
+    }
+for name, language in favorite_languages.items():
+    print(f"{name.title()}'s favorite language is {language.title()}.")
+
+print(f"\n*looping through all the key in a dictionary*")
+favorite_languages ={
+    'jen': 'python',
+    'sarah': 'C', 
+    'edward': 'ruby', 
+    'phil' : 'python',
+    }
+for name in favorite_languages.keys():
+    print(name.title())
+
+print("\n*another example*")
+
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'C', 
+    'edward': 'ruby', 
+    'phil' : 'python',
+    }
+friends = ['jen','sarah']
+for name in favorite_languages.keys():
+    print(name.title())
+
+for name in friends:
+    language = favorite_languages[name].title()
+    print(language)
+
+
+       
+
