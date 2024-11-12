@@ -7,3 +7,8 @@ while numbers <= 50:
     numbers = numbers * 3
     print(numbers)    
 
+# for statement allows you to repeat an action or several actions, it perfoms its action for each item in a sequence of items
+#for example
+for character in "Programming":
+    print(character, end = "  ")
+
