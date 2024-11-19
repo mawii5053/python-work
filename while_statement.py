@@ -12,3 +12,13 @@ while numbers <= 50:
 for character in "Programming":
     print(character, end = "  ")
 
+#range function create an iterable object that represent a sequence of consecutive
+#integer values starting from 0 and continuing up to , but not including, the argument value
+
+for counter in range(10):
+    print(counter, end=' ')
+
+total = 0
+for numbers in range(15):
+    total = total + numbers
+    print(total)
