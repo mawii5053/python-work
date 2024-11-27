@@ -35,4 +35,6 @@ if grade_counter != 0:
     average = total / grade_counter
     print(f'class average is {average: .2f}')
 else:
-    print('no grades were entered')        
+    print('no grades were entered')  
+
+print('hello')      
