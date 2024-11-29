@@ -21,8 +21,8 @@ for counter in range(10):
 total = 0
 for numbers in range(15):
     total = total + numbers
-    print(tot
+    print(total)
 
 
-print(cop)
+print('cop')
     
