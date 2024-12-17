@@ -59,3 +59,7 @@ print(favorite_language)
 message = "one of python's strenght is its diverse community."
 print(message)
 
+def rectangle_area(length=2,width=3):
+    """return a rectangle's area"""
+    return length * width
+print(rectangle_area)
