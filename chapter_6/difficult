@@ -80,4 +80,9 @@ for name in country_rivers.keys():
 for name in country_rivers.values():
     print(name.title())
 
-
+prompt = "\ntell me something, and i will repeat it back to you:"
+prompt += "\nenter 'quit' to end the program. "
+message = ""
+while message != 'quit':
+    message = input(prompt)
+print(message)
