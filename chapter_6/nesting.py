@@ -62,3 +62,4 @@ for username, user_info in user.items():
     print(f"\tfull name : {full_name.title()}")
     print(f"\tLocation : {location.title()}")
     print(exit)
+    
